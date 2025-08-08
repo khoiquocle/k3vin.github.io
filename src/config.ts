@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/banner3.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
@@ -46,7 +46,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/k3vinq", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
@@ -58,22 +58,21 @@ export const profileConfig: ProfileConfig = {
 	bio: "On the learning journey of becoming a Red Teamer",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
-		},
-		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
 			url: "https://github.com/k3vinq/khoiquocle",
 		},
+		{
+			name: "LinkedIn",
+			icon: "fa6-brands:linkedin", // icon LinkedIn
+			url: "https://www.linkedin.com/in/k3vinq",
+		},
+		{
+			name: "Facebook",
+			icon: "fa6-brands:facebook",
+			url: "https://www.facebook.com/211qkho1/",
+		},
+	
 	],
 };
 
